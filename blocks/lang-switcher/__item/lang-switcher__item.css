@@ -1,0 +1,13 @@
+.lang-switcher__item {
+	margin: 0;
+	padding: 0;
+	margin-right: 18px;
+}
+
+.lang-switcher__item:first-child {
+	text-decoration: underline;
+}
+
+.lang-switcher__item:last-child {
+	margin-right: 0;
+}
