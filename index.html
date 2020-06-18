@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="pages/index.css">
 </head>
 <body class="page">
+
+	<!-- Блок header -->
 	<header class="header">
 		<img src="images/header-logo.svg" alt="Логотип" class="logo" lang="ru">
 		<ul class="lang-switcher">
@@ -18,13 +20,19 @@
 			</li>
 		</ul>
 	</header>
+	<!-- Конец блока header -->
+
+	<!-- Блок lead -->
+	<section class="lead">
+		<h1 class="lead__title" lang="ru">Путешествия по России</h1>
+		<p class="lead__subtitle" lang="ru">Настоящая страна не в выпусках новостей, а здесь.</p>
+		<img src="images/lead-polka.jpg" alt="Путь Псков - Улан-Удэ" class="lead__image">
+		<p class="lead__caption" lang="ru">ваша полка — верхняя</p>
+	</section>
+	<!-- Конец блока lead -->
+
+	<!-- Блок intro/container для выравнивания -->
 	<div class="container">
-		<section class="lead">
-			<h1 class="lead__title" lang="ru">Путешествия по России</h1>
-			<p class="lead__subtitle" lang="ru">Настоящая страна не в выпусках новостей, а здесь.</p>
-			<img src="images/lead-polka.jpg" alt="Путь Псков - Улан-Удэ" class="lead__image">
-			<p class="lead__caption" lang="ru">ваша полка — верхняя</p>
-		</section>
 		<section class="intro">
 			<h3 class="intro__title" lang="ru">Чего мы там не видели?</h3>
 			<p class="intro__text" lang="ru">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
@@ -37,7 +45,10 @@
 			</ul>
 		</section>
 	</div>
-	<section class="photo-grid">
+	<!-- Конец блока intro -->
+
+	<!-- Блок photo-grid -->
+	<div class="photo-grid">
 		<img src="images/photo-grid-train.jpg" alt="" class="photo-grid__item">
 		<img src="images/photo-grid-atharva-tulsi.jpg" alt="" class="photo-grid__item">
 		<img src="images/photo-grid-tuman.jpg" alt="" class="photo-grid__item">
@@ -50,7 +61,10 @@
 		<img src="images/photo-grid-kamchatka-2.jpg" alt="" class="photo-grid__item">
 		<img src="images/photo-grid-baikal-2.jpg" alt="" class="photo-grid__item">
 		<img src="images/photo-grid-ergaki.jpg" alt="" class="photo-grid__item">
-	</section>
+	</div>
+	<!-- Конец блока photo-grid -->
+
+	<!-- Блок photo-places -->
 	<section class="places">
 		<div class="place">
 			<h2 class="place__title" lang="ru">Куршская коса</h2>
@@ -112,6 +126,9 @@
 			</div>
 		</div>
 	</section>
+	<!-- Конец блока places -->
+
+	<!-- Блок photo-cover -->
 	<section class="cover">
 		<a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay">
 			<img src="images/overlay.png" alt="" class="cover__overlay">
@@ -119,6 +136,9 @@
 		<h2 class="cover__title" lang="ru">До Байкала «на собаках»</h2>
 		<p class="cover__subtitle" lang="ru">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
 	</section>
+	<!-- Конец блока cover -->
+
+	<!-- Блок photo-footer -->
 	<footer class="footer">
 		<nav class="menu">
 			<ul class="menu__items">
@@ -136,5 +156,6 @@
 		</nav>
 		<p class="footer__copyright" lang="ru">&#169; 2020. Дмитрий Прокопьев</p>
 	</footer>
+	<!-- Конец блока footer -->
 	</body>
 	</html>

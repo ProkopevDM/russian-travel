@@ -35,3 +35,17 @@
 		min-height: 480px;
 	}
 }
+
+@media screen and (min-width: 321px) and (max-width: 536px){
+	.cover {
+		max-width: 768px;
+		min-height: 480px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.cover {
+		max-width: 320px;
+		min-height: 200px;
+	}
+}
