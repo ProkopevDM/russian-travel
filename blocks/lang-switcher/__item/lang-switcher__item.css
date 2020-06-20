@@ -5,10 +5,10 @@
 	margin-right: 18px;
 }
 
-.lang-switcher__item:first-child {
-	text-decoration: underline;
-}
-
 .lang-switcher__item:last-child {
 	margin-right: 0;
+}
+
+.lang-switcher__item:hover {
+	opacity: 0.8;
 }

@@ -3,23 +3,13 @@
 @import url(./__overlay/cover__overlay.css);
 
 .cover {
-	position: relative;
 	margin: 0 auto;
 	margin-top: 92px;
 	max-width: 1184px;
 	min-height: 740px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	background-image: url(../../images/cover-background-image.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-}
-
-.cover:hover .cover__overlay {
-	cursor: pointer;
-	opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {

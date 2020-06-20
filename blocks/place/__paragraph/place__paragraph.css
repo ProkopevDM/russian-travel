@@ -3,7 +3,6 @@
 	margin: 0;
 	max-width: 484px;
 	padding-bottom: 24px;
-	font-family: Inter;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -26,7 +25,5 @@
 	.place__paragraph {
 		margin: 0 auto;
 		max-width: 288px;
-		font-size: 16px;
-		line-height: 26px;
 	}
 }

@@ -1,4 +1,5 @@
 @import url(./__item/lang-switcher__item.css);
+@import url(./__item/_active/lang-switcher__item_active.css);
 @import url(./__link/lang-switcher__link.css);
 
 .lang-switcher {
