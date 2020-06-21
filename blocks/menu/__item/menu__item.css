@@ -6,16 +6,7 @@
 	margin-right: 0px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 680px){
-	.menu__item {
-		margin-bottom: 32px;
-	}
-	.menu__item:last-child {
-		margin-bottom: 0;
-	}
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 680px){
 	.menu__item {
 		margin-bottom: 32px;
 	}

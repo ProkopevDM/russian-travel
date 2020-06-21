@@ -27,25 +27,25 @@
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 928px){
 	.place {
+		margin-top: 72px;
 		grid-template-columns: minmax(auto, 340px) minmax(auto, 352px);
 		grid-column-gap: 28px;
 	}
 }
 
-@media screen and (min-width: 321px) and (max-width: 583px) {
+@media screen and (max-width: 767px) {
 	.place {
 		grid-template-columns: minmax(auto, 500px);
 		grid-auto-rows: auto;
-		grid-row-gap: 32px;
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
 	.place {
+		margin-top: 48px;
 		grid-template-columns: minmax(auto, 320px);
-		grid-auto-rows: auto;
 		grid-row-gap: 32px;
 	}
 }

@@ -3,6 +3,7 @@
 	margin-bottom: 0;
 	padding: 0;
 	margin-right: 18px;
+	transition: opacity .16s linear .1s;
 }
 
 .lang-switcher__item:last-child {
@@ -10,5 +11,5 @@
 }
 
 .lang-switcher__item:hover {
-	opacity: 0.8;
+	opacity: .8;
 }
