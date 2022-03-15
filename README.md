@@ -1,4 +1,4 @@
-# [Путешествия по России](https://millioneri.github.io/russian-travel/index.html) 
+# [Путешествия по России](https://prokopevdm.github.io/russian-travel/index.html) 
 ------ 
 __Путешествия по России__ - Проектная работа для студентов [Яндекс.Практикум](https://praktikum.yandex.ru/) рассчитанная для проверки знаний на пройденые темы второго курса. 
 ------ 
